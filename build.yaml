@@ -10,3 +10,6 @@ include:
     artifact-name: offsetkey_dongle
   - board: eyelash_nano
     shield: settings_reset
+    - board: eyelash_nano
+    shield: <existing shields> raw_hid_adapter # <-- required for Raw HID support
+    snippet: studio-rpc-usb-uart # <-- required for ZMK Studio support
