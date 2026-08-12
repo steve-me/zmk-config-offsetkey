@@ -55,5 +55,11 @@ manifest:
     - name: zmk-tog-io
       remote: a741725193
       revision: main
+    - name: zmk-raw-hid # <-- Raw HID module
+      remote: zzeneg
+      revision: main
+    - name: zmk-keypeek-layer-notifier # <-- KeyPeek module
+      remote: srwi
+      revision: master
   self:
     path: config
