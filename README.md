@@ -1,3 +1,13 @@
+This repository contains my personal keyboard configuration. I have made several changes on the dongle branch. My KB has dongle, trackball and 5 position switch. The original keymap had 6 switches that do not exist on my KB. 
+I have removed these extra keys from the keymap.
+
+I will change the main branch sometime.
+
+Changes to Layer 0
+          Added 2 mod-tap keys. 
+          The top right F5 is now a Line Home/Line End key. Press for Home, hold for End
+          The right Delete key is now a Delete/Insert key. Press for Del, hold for Ins
+
 2026/5/21 重大更新 offset适配了dya-studio 比ZMK-studio好用一些。可以下载当前版本的新固件，以便支持dya-studio.另附dya-studio的下载链接(https://github.com/tokyo2006/dya-studio/actions/runs/25962140568)     目前有windows 和macos两个版本。
           Update: The offset is compatible with dya-studio and works slightly better than ZMK-studio. You can download the latest firmware to support dya-studio.The download link for dya-studio is https://github.com/tokyo2006/dya-studio/actions/runs/25962140568.  Two versions available: Windows and MacOS.
           The website of dya studio:https://studio.dya.cormoran.works/
