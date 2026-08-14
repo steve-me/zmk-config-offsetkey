@@ -15,7 +15,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: Home, h: End}
+  - {t: Home, h: LShift}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -58,7 +58,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: INS}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: LShift}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
