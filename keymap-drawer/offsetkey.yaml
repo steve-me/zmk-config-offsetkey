@@ -58,7 +58,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Ins}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: INS}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
