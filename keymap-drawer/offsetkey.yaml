@@ -15,7 +15,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - F5
+  - {t: END, h: HOME}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -30,7 +30,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - RGB ON
+  - PgUp
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -44,7 +44,7 @@ layers:
   - {t: ;, s: ':'}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - RGB OFF
+  - PgDn
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -58,7 +58,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Ins}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
