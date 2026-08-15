@@ -60,6 +60,6 @@ manifest:
       revision: main
     - name: zmk-keypeek-layer-notifier
       remote: srwi
-      revision: master
+      revision: split-support
   self:
     path: config
