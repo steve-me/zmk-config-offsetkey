@@ -359,7 +359,7 @@ rect.held, rect.combo.held {
 <g transform="translate(1344, 28)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">Home</text>
+<text x="0" y="-4" class="key tap">F5</text>
 </g>
 <g transform="translate(42, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-40" y="-26" width="80" height="52" class="key side"/>
@@ -437,7 +437,9 @@ rect.held, rect.combo.held {
 <g transform="translate(1344, 84)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">PgUp</text>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">ON</tspan>
+</text>
 </g>
 <g transform="translate(49, 140)" class="key keypos-30">
 <rect rx="6" ry="6" x="-47" y="-26" width="94" height="52" class="key side"/>
@@ -508,7 +510,9 @@ rect.held, rect.combo.held {
 <g transform="translate(1344, 140)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">PgDn</text>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">OFF</tspan>
+</text>
 </g>
 <g transform="translate(63, 196)" class="key keypos-44">
 <rect rx="6" ry="6" x="-61" y="-26" width="122" height="52" class="key side"/>
@@ -581,7 +585,7 @@ rect.held, rect.combo.held {
 <g transform="translate(1344, 196)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">Ins</text>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g transform="translate(35, 252)" class="key keypos-58">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key side"/>
@@ -673,9 +677,7 @@ rect.held, rect.combo.held {
 <g transform="translate(518, 252)" class="key keypos-75">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#layer0">
-<text x="0" y="-4" class="key tap layer-activator">layer0</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(616, 252)" class="key keypos-76">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -685,7 +687,7 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 252)" class="key keypos-77">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click-outline"/>
 </g>
 <g transform="translate(728, 252)" class="key keypos-78">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
