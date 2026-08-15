@@ -192,11 +192,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - Ctl+Alt+KP 0
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+KP 1
+  - Ctl+Alt+KP 2
+  - Ctl+Alt+KP 3
+  - Ctl+Alt+KP 4
+  - Ctl+Alt+KP 5
   - RGB OFF
   - RGB ON
   - RGB EFF
@@ -205,10 +205,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ins
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+KP 6
+  - Ctl+Alt+KP 7
+  - Ctl+Alt+KP 8
+  - Ctl+Alt+KP 9
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
