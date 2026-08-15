@@ -76,7 +76,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: layer1, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -151,11 +151,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: layer0, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -231,11 +231,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: layer0, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -311,11 +311,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: layer0, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
