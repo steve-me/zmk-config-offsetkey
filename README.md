@@ -8,8 +8,9 @@ It is possible these keys were used for a keypad or something, so make sure you 
          Added 2 mod-tap keys. 
          The top right F5 is now a Line Home/Line End key. Press for Home, hold for End
          The right Delete key is now a Delete/Insert key. Press for Del, hold for Ins
-         Change to layer 0 for pressing scroll wheel (not scroll ball) button
+         Change to layer 1 for pressing scroll wheel (not scroll ball) button
          Added Middle click for scroll wheel button.
+         Added Arrow keys and Enter for 5 way switch
 
 ### Changes to Layer 1
           Switch to Layer 0, 2 or 3 (TAB, W, E keys)
@@ -17,6 +18,7 @@ It is possible these keys were used for a keypad or something, so make sure you 
           Numeric keypad layout (Right side Y,U,I,H,J,K,N,M,,SPACE,Alt) & Enter
           Change to layer 0 for pressing scroll wheel (not scroll ball) button
           Added Left, Middle & Right clicks for scroll wheel buttons.
+          Added Arrow keys and Enter for 5 way switch
 
 ### Changes to Layer 2
           Switch to Layer 0, 1 or 3 (TAB, Q, R, keys)
@@ -24,11 +26,13 @@ It is possible these keys were used for a keypad or something, so make sure you 
           Keys Tab,Q,W,E,R,T,Caps Lock,A,S & D output Left Ctrl + Left Alt + Numpad 0 to 9
           Change to layer 0 for pressing scroll wheel (not scroll ball) button
           Added Left, Middle & Right clicks for scroll wheel buttons.
+          Added Arrow keys and Enter for 5 way switch
 
 ### Changes to Layer 3
           Switch to Layer 0, 1 or 2 (TAB, Q, E, keys)
           Change to layer 0 for pressing scroll wheel (not scroll ball) button
           Added Left, Middle & Right clicks for scroll wheel buttons.
+          Added Arrow keys and Enter for 5 way switch
 
 
 2026/5/21 重大更新 offset适配了dya-studio 比ZMK-studio好用一些。可以下载当前版本的新固件，以便支持dya-studio.另附dya-studio的下载链接(https://github.com/tokyo2006/dya-studio/actions/runs/25962140568)     目前有windows 和macos两个版本。
