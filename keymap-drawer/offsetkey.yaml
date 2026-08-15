@@ -30,7 +30,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - RGB ON
+  - PgUp
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -44,7 +44,7 @@ layers:
   - {t: ;, s: ':'}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - RGB OFF
+  - PgDn
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
