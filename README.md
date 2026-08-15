@@ -1,4 +1,5 @@
 This repository contains my personal keyboard configuration. I have made several changes on the dongle branch. My KB has dongle, trackball and 5 position switch.
+The main branch has also been changed to reflect the same changes. It builds OK but I have not tested this branch.
 
 The original keymap had 6 switches that do not exist on my KB. I have removed these extra keys from the keymap.
 It is possible these keys were used for a keypad or something, so make sure you don't need these keys if you want to use this repository for your keyboard.
