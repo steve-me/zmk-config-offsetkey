@@ -78,7 +78,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   layer1:
   - {t: '`', s: '~'}
