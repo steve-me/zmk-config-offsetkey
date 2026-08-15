@@ -142,8 +142,8 @@ layers:
   - RGB TOG
   - RGB BRI
   - RGB SPI
-  - {t: RGB EFF, type: held}
-  - RGB HUI
+  - {t: layer0, type: held}
+  - RGB EFF
   - KP 0
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
