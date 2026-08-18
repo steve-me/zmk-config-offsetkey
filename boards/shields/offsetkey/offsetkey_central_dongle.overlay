@@ -16,7 +16,7 @@
 	chosen {
         zmk,underglow = &led_strip;
         zmk,kscan = &mock_kscan;
-        zephyr,display = &oled;
+        zephyr,display = &oled1;
     };
     mock_kscan: kscan_0 {
         compatible = "zmk,kscan-mock";
@@ -63,7 +63,7 @@
 	compatible = "nordic,nrf-twi";
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
-	oled: sh1106@3c {
+	oled1: sh1106@3c {
         compatible = "sinowealth,sh1106";
         reg = <0x3c>;
         width = <129>;
