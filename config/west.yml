@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/infused-kim
     - name: a741725193
       url-base: https://github.com/a741725193
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
     - name: zzeneg
       url-base: https://github.com/zzeneg
     - name: srwi
@@ -55,6 +57,9 @@ manifest:
     - name: zmk-tog-io
       remote: a741725193
       revision: main
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: v0.3
     - name: zmk-raw-hid
       remote: zzeneg
       revision: main
