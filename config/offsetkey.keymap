@@ -78,7 +78,7 @@
             >;
 
             label = "layer0";
-            sensor-bindings = <&rsr_vol>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_1 {
@@ -92,7 +92,7 @@
             >;
 
             label = "layer1";
-            sensor-bindings = <&rsr_vol>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_2 {
@@ -106,7 +106,7 @@
             >;
 
             label = "layer2";
-            sensor-bindings = <&rsr_vol>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_3 {
@@ -120,7 +120,7 @@
             >;
 
             label = "layer3";
-            sensor-bindings = <&rsr_vol>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
 };
