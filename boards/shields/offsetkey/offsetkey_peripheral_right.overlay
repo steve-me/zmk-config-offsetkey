@@ -5,9 +5,7 @@
  */
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
-#include <input/processors/runtime-input-processor.dtsi>
 #include <dt-bindings/led/led.h>
-#include <behaviors/battery_history_request.dtsi>
 #include "offsetkey.dtsi"
 #include "trackball.dtsi"
 #include "split_input_common.dtsi"
