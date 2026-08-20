@@ -10,7 +10,7 @@
 #include "offsetkey.dtsi"
 #include "rgb.dtsi"
 #include "split_input_common.dtsi"
-
+#include "trackball.dtsi"
 #define SYMBOLS 2
 
 / {
@@ -82,13 +82,4 @@
 
 &trackball_listener {
     status = "okay";
-    device = <&trackball_split>;
-    input-processors = <&mouse_runtime_input_processor>;
-
-    scroller {
-        layers = <1>;
-        input-processors =
-            <&zip_xy_to_scroll_mapper &scroll_runtime_input_processor>,
-            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
-    };
 };
