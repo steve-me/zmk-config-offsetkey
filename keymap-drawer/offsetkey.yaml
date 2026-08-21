@@ -31,7 +31,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - PgUp
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:alpha-w-box$$
   - A
   - S
   - D
@@ -58,7 +58,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Ins}
+  - {t: Ins, h: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
