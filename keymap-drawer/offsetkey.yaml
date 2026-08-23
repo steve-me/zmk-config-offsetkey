@@ -137,7 +137,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:arrow-up-bold$$', h: Ctl+HOME}
+  - nav up
   - $$mdi:backspace-reverse-outline$$
   - RGB TOG
   - RGB BRI
@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - {t: '$$mdi:arrow-down-bold$$', h: Ctl+END}
+  - nav down
   - {t: '$$mdi:arrow-right-bold$$', h: END}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-left-bold$$
