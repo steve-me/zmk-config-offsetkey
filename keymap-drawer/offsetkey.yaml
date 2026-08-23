@@ -57,7 +57,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - nav up
+  - {t: '$$mdi:arrow-up-bold$$', s: HOME}
   - {t: Ins, h: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -69,7 +69,7 @@ layers:
   - '&to_lay_2'
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - nav down
+  - {t: '$$mdi:arrow-down-bold$$', s: END}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-left-bold$$
@@ -137,7 +137,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - nav up
+  - {t: '$$mdi:arrow-up-bold$$', s: HOME}
   - $$mdi:backspace-reverse-outline$$
   - RGB TOG
   - RGB BRI
@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - nav down
+  - {t: '$$mdi:arrow-down-bold$$', s: END}
   - {t: '$$mdi:arrow-right-bold$$', h: END}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-left-bold$$
