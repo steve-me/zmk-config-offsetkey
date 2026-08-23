@@ -75,14 +75,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NAV_UP";
             #binding-cells = <0>;
-            bindings = <&kp RC(HOME)>, <&kp UP_ARROW>;
+            bindings = <&kp RCTRL(HOME)>, <&kp UP_ARROW>;
         };
 
         nav_down: nav_down {
             compatible = "zmk,behavior-tap-dance";
             label = "NAV_DOWN";
             #binding-cells = <0>;
-            bindings = <&kp RC(END)>, <&kp DOWN>;
+            bindings = <&kp RCTRL(END)>, <&kp DOWN>;
         };
 
         nav_left: nav_left {
