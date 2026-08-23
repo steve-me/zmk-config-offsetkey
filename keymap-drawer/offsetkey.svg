@@ -1017,8 +1017,9 @@ rect.held, rect.combo.held {
 <g transform="translate(1288, 196)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-up-bold"/>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 75%">Ctl+HOME</tspan></text>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">nav</tspan><tspan x="0" dy="1.2em">up</tspan>
+</text>
 </g>
 <g transform="translate(1344, 196)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1092,8 +1093,9 @@ rect.held, rect.combo.held {
 <g transform="translate(1288, 252)" class="key keypos-68">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-down-bold"/>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 86%">Ctl+END</tspan></text>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">nav</tspan><tspan x="0" dy="1.2em">down</tspan>
+</text>
 </g>
 <g transform="translate(1344, 252)" class="key keypos-69">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
