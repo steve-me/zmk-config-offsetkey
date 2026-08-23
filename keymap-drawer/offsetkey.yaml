@@ -57,7 +57,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-up-bold$$
+  - nav up
   - {t: Ins, h: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -69,7 +69,7 @@ layers:
   - '&to_lay_2'
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:arrow-left-bold$$', h: HOME}
-  - $$mdi:arrow-down-bold$$
+  - nav down
   - {t: '$$mdi:arrow-right-bold$$', h: END}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-left-bold$$
