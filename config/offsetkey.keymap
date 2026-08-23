@@ -73,20 +73,20 @@
             tapping-term-ms = <180>;
         };
 
-        nav_up: nav_up {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NAV_UP";
-            #binding-cells = <0>;
-            bindings = <&kp RC(HOME)>, <&kp UP_ARROW>;
-
-            tapping-term-ms = <220>;
-        };
-
         nav_down: nav_down {
             compatible = "zmk,behavior-tap-dance";
             label = "NAV_DOWN";
             #binding-cells = <0>;
-            bindings = <&kp RC(END)>, <&kp DOWN>;
+            bindings = <&mt RC(END) DOWN_ARROW>, <&kp UP_ARROW>;
+
+            tapping-term-ms = <220>;
+        };
+
+        nav_up: nav_up {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NAV_UP";
+            #binding-cells = <0>;
+            bindings = <&mt RC(HOME) UP_ARROW>, <&kp UP_ARROW>;
 
             tapping-term-ms = <220>;
         };
