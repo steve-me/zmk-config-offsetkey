@@ -74,22 +74,20 @@
         };
 
         nav_up: nav_up {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-tap-dance";
             label = "NAV_UP";
-            bindings = <&kp>, <&kp>;
+            #binding-cells = <0>;
+            bindings = <&kp RC(HOME)>, <&kp UP_ARROW>;
 
-            #binding-cells = <2>;
-            hold-trigger-key-positions = <56>;
             tapping-term-ms = <220>;
         };
 
         nav_down: nav_down {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-tap-dance";
             label = "NAV_DOWN";
-            bindings = <&kp>, <&kp>;
+            #binding-cells = <0>;
+            bindings = <&kp RC(END)>, <&kp DOWN>;
 
-            #binding-cells = <2>;
-            hold-trigger-key-positions = <68>;
             tapping-term-ms = <220>;
         };
     };
@@ -121,11 +119,11 @@
             //                                                            Button    |   Buttons
 
             bindings = <
-&kp ESC       &kp N1          &kp N2           &kp N3          &kp N4     &kp N5     &kp N6      &kp N7     &kp N8     &kp N9         &kp N0     &kp MINUS  &kp EQUAL        &kp BSPC                &mt HOME END
-&kp TAB       &kp Q           &kp W            &kp E           &kp R      &kp T                  &kp Y      &kp U      &kp I          &kp O      &kp P      &kp LBKT         &kp RBKT                &kp BSLH             &kp PAGE_UP
-&caps_word    &kp A           &kp S            &kp D           &kp F      &kp G                  &kp H      &kp J      &kp K          &kp L      &kp SEMI   &kp APOS         &kp ENTER               &kp PAGE_DOWN
-&kp LSHFT     &kp Z           &kp X            &kp C           &kp V      &kp B                  &kp N      &kp M      &kp COMMA      &kp DOT    &kp FSLH   &kp RIGHT_SHIFT  &nav_up RC(HOME) UP     &mt DELETE INSERT
-&kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT     &to_lay_1                  &kp SPACE                         &kp SPACE  &kp RIGHT_ALT  &to_lay_2  &kp RCTRL  &mt HOME LEFT    &nav_down RC(END) DOWN  &mt END RIGHT_ARROW
+&kp ESC       &kp N1          &kp N2           &kp N3          &kp N4     &kp N5     &kp N6      &kp N7     &kp N8     &kp N9         &kp N0     &kp MINUS  &kp EQUAL        &kp BSPC   &mt HOME END
+&kp TAB       &kp Q           &kp W            &kp E           &kp R      &kp T                  &kp Y      &kp U      &kp I          &kp O      &kp P      &kp LBKT         &kp RBKT   &kp BSLH             &kp PAGE_UP
+&caps_word    &kp A           &kp S            &kp D           &kp F      &kp G                  &kp H      &kp J      &kp K          &kp L      &kp SEMI   &kp APOS         &kp ENTER  &kp PAGE_DOWN
+&kp LSHFT     &kp Z           &kp X            &kp C           &kp V      &kp B                  &kp N      &kp M      &kp COMMA      &kp DOT    &kp FSLH   &kp RIGHT_SHIFT  &nav_up    &mt DELETE INSERT
+&kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT     &to_lay_1                  &kp SPACE                         &kp SPACE  &kp RIGHT_ALT  &to_lay_2  &kp RCTRL  &mt HOME LEFT    &nav_down  &mt END RIGHT_ARROW
 &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp ENTER  &to 0                  &mkp LCLK  &mkp MCLK  &mkp RCLK
             >;
 
