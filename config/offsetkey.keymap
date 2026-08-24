@@ -60,7 +60,7 @@
                 , <&macro_release &kp RCTRL>
                 ;
         };
-
+    };
 
 
     behaviors {
