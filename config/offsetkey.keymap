@@ -47,7 +47,7 @@
                 , <&kp HOME>
                 , <&macro_release &kp RCTRL>
                 ;
-        }
+        };
 
         ctrl_end: ctrl_end {
             compatible = "zmk,behavior-macro";
@@ -59,8 +59,8 @@
                 , <&kp END>
                 , <&macro_release &kp RCTRL>
                 ;
-        }
-    }
+        };
+
 
 
     behaviors {
