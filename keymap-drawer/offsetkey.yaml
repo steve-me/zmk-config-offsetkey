@@ -320,6 +320,3 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-combos:
-- p: [0, 11]
-  k: $$mdi:progress-download$$
