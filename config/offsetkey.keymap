@@ -72,6 +72,40 @@
 
             tapping-term-ms = <180>;
         };
+
+        nav_UP: nav_UP {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NAV_UP";
+            bindings = <&kp UP_ARROW>, <&kp HOME>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL|MOD_RCTL)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL)>;
+        };
+
+        nav_DOWN: nav_DOWN {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NAV_DOWN";
+            bindings = <&kp DOWN>, <&kp END>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL|MOD_RCTL)>;
+            keep-mods = <(MOD_LCTL|MOD_RCTL)>;
+        };
+
+        nav_LEFT: nav_LEFT {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NAV_LEFT";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT>, <&kp HOME>;
+        };
+
+        nav_RIGHT: nav_RIGHT {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NAV_RIGHT";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT>, <&kp END>;
+        };
     };
 
     macros {
@@ -127,11 +161,11 @@
             //                                                            Button    |   Buttons
 
             bindings = <
-&kp ESC       &kp N1          &kp N2           &kp N3          &kp N4     &kp N5     &kp N6      &kp N7     &kp N8     &kp N9         &kp N0     &kp MINUS  &kp EQUAL        &kp BSPC          &mt HOME END
-&kp TAB       &kp Q           &kp W            &kp E           &kp R      &kp T                  &kp Y      &kp U      &kp I          &kp O      &kp P      &kp LBKT         &kp RBKT          &kp BSLH           &kp PAGE_UP
-&caps_word    &kp A           &kp S            &kp D           &kp F      &kp G                  &kp H      &kp J      &kp K          &kp L      &kp SEMI   &kp APOS         &kp ENTER         &kp PAGE_DOWN
-&kp LSHFT     &kp Z           &kp X            &kp C           &kp V      &kp B                  &kp N      &kp M      &kp COMMA      &kp DOT    &kp FSLH   &kp RIGHT_SHIFT  &kp UP   &mt DELETE INSERT
-&kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT     &to_lay_1                  &kp SPACE                         &kp SPACE  &kp RIGHT_ALT  &to_lay_2  &kp RCTRL  &kp LEFT         &kp DOWN  &kp RIGHT
+&kp ESC       &kp N1          &kp N2           &kp N3          &kp N4     &kp N5     &kp N6      &kp N7     &kp N8     &kp N9         &kp N0     &kp MINUS  &kp EQUAL        &kp BSPC   &mt HOME END
+&kp TAB       &kp Q           &kp W            &kp E           &kp R      &kp T                  &kp Y      &kp U      &kp I          &kp O      &kp P      &kp LBKT         &kp RBKT   &kp BSLH           &kp PAGE_UP
+&caps_word    &kp A           &kp S            &kp D           &kp F      &kp G                  &kp H      &kp J      &kp K          &kp L      &kp SEMI   &kp APOS         &kp ENTER  &kp PAGE_DOWN
+&kp LSHFT     &kp Z           &kp X            &kp C           &kp V      &kp B                  &kp N      &kp M      &kp COMMA      &kp DOT    &kp FSLH   &kp RIGHT_SHIFT  &nav_UP    &mt DELETE INSERT
+&kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT     &to_lay_1                  &kp SPACE                         &kp SPACE  &kp RIGHT_ALT  &to_lay_2  &kp RCTRL  &nav_LEFT        &nav_DOWN  &nav_RIGHT
 &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp ENTER  &to 0                  &mkp LCLK  &mkp MCLK  &mkp RCLK
             >;
 
@@ -154,11 +188,11 @@
             //                                                            Button    |   Buttons
 
             bindings = <
-&kp GRAVE        &kp F1           &kp F2           &kp F3          &kp F4     &kp F5           &kp F6      &kp F7           &kp F8           &kp F9           &kp F10  &kp F11  &kp F12   &kp PAGE_UP       &kp HOME
-&to 0            &trans           &to 2            &to 3           &trans     &trans                       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans   &trans   &trans    &trans            &kp DOWN    &kp END
-&trans           &trans           &trans           &trans          &trans     &trans                       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans   &trans   &trans    &kp ENTER         &kp INSERT
-&trans           &trans           &trans           &trans          &trans     &trans                       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans   &trans   &trans    &kp  UP   &kp DELETE
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &mo 0                      &rgb_ug RGB_EFF                               &kp KP_NUMBER_0  &kp KP_DOT       &trans   &trans   &kp LEFT  &kp DOWN  &kp LEFT
+&kp GRAVE        &kp F1           &kp F2           &kp F3          &kp F4     &kp F5           &kp F6      &kp F7           &kp F8           &kp F9           &kp F10  &kp F11  &kp F12   &kp PAGE_UP  &kp HOME
+&to 0            &trans           &to 2            &to 3           &trans     &trans                       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans   &trans   &trans    &trans       &kp DOWN    &kp END
+&trans           &trans           &trans           &trans          &trans     &trans                       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans   &trans   &trans    &kp ENTER    &kp INSERT
+&trans           &trans           &trans           &trans          &trans     &trans                       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans   &trans   &trans    &kp UP       &kp DELETE
+&rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &mo 0                      &rgb_ug RGB_EFF                               &kp KP_NUMBER_0  &kp KP_DOT       &trans   &trans   &kp LEFT  &kp DOWN     &kp LEFT
 &kp UP_ARROW     &kp LEFT_ARROW   &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp ENTER  &to 0                        &mkp LCLK        &mkp MCLK        &mkp RCLK
             >;
 
