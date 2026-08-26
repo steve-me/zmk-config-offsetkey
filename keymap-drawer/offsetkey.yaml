@@ -15,7 +15,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: END, h: HOME}
+  - '&td_home_end'
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -58,25 +58,25 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:arrow-up-bold$$', s: HOME}
-  - {t: Ins, h: '$$mdi:backspace-reverse-outline$$'}
+  - '&td_del_ins'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - '&to_lay_1'
+  - '&td_lay_1'
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - '&to_lay_2'
+  - '&td_lay_2'
   - $$mdi:apple-keyboard-control$$
-  - '&nav_LEFT'
+  - '&td_nav_L'
   - {t: '$$mdi:arrow-down-bold$$', s: END}
-  - '&nav_RIGHT'
+  - '&td_nav_R'
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: layer0, h: toggle}
+  - {t: layer1, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
