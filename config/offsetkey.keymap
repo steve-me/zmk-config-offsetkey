@@ -55,27 +55,27 @@
             ccw-binding = <&kp C_VOL_DN>;
         };
 
-        to_lay_1: to_lay_1 {
+        td_lay_1: td_lay_1 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TO_LAY_1";
+            label = "TD_LAY_1";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&to 1>;
 
             tapping-term-ms = <180>;
         };
 
-        to_lay_2: to_lay_2 {
+        td_lay_2: td_lay_2 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TO_LAY_2";
+            label = "TD_LAY_2";
             #binding-cells = <0>;
             bindings = <&mo 2>, <&to 2>;
 
             tapping-term-ms = <180>;
         };
 
-        nav_UP: nav_UP {
+        mm_nav_U: mm_nav_U {
             compatible = "zmk,behavior-mod-morph";
-            label = "NAV_UP";
+            label = "MM_NAV_U";
             bindings = <&kp UP_ARROW>, <&kp HOME>;
 
             #binding-cells = <0>;
@@ -83,9 +83,9 @@
             keep-mods = <(MOD_LCTL|MOD_RCTL)>;
         };
 
-        nav_DOWN: nav_DOWN {
+        mm_nav_D: mm_nav_D {
             compatible = "zmk,behavior-mod-morph";
-            label = "NAV_DOWN";
+            label = "MM_NAV_D";
             bindings = <&kp DOWN>, <&kp END>;
 
             #binding-cells = <0>;
@@ -93,18 +93,32 @@
             keep-mods = <(MOD_LCTL|MOD_RCTL)>;
         };
 
-        nav_LEFT: nav_LEFT {
+        td_nav_L: td_nav_L {
             compatible = "zmk,behavior-tap-dance";
-            label = "NAV_LEFT";
+            label = "TD_NAV_L";
             #binding-cells = <0>;
             bindings = <&kp LEFT>, <&kp HOME>;
         };
 
-        nav_RIGHT: nav_RIGHT {
+        td_nav_R: td_nav_R {
             compatible = "zmk,behavior-tap-dance";
-            label = "NAV_RIGHT";
+            label = "TD_NAV_R";
             #binding-cells = <0>;
             bindings = <&kp RIGHT>, <&kp END>;
+        };
+
+        td_home_end: td_home_end {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_HOME_END";
+            #binding-cells = <0>;
+            bindings = <&kp HOME>, <&kp END>;
+        };
+
+        td_del_ins: td_del_ins {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_DEL_INS";
+            #binding-cells = <0>;
+            bindings = <&kp DEL>, <&kp INS>;
         };
     };
 
@@ -161,12 +175,12 @@
             //                                                            Button    |   Buttons
 
             bindings = <
-&kp ESC       &kp N1          &kp N2           &kp N3          &kp N4     &kp N5     &kp N6      &kp N7     &kp N8     &kp N9         &kp N0     &kp MINUS  &kp EQUAL        &kp BSPC   &mt HOME END
-&kp TAB       &kp Q           &kp W            &kp E           &kp R      &kp T                  &kp Y      &kp U      &kp I          &kp O      &kp P      &kp LBKT         &kp RBKT   &kp BSLH           &kp PAGE_UP
+&kp ESC       &kp N1          &kp N2           &kp N3          &kp N4     &kp N5     &kp N6      &kp N7     &kp N8     &kp N9         &kp N0     &kp MINUS  &kp EQUAL        &kp BSPC   &td_home_end
+&kp TAB       &kp Q           &kp W            &kp E           &kp R      &kp T                  &kp Y      &kp U      &kp I          &kp O      &kp P      &kp LBKT         &kp RBKT   &kp BSLH       &kp PAGE_UP
 &caps_word    &kp A           &kp S            &kp D           &kp F      &kp G                  &kp H      &kp J      &kp K          &kp L      &kp SEMI   &kp APOS         &kp ENTER  &kp PAGE_DOWN
-&kp LSHFT     &kp Z           &kp X            &kp C           &kp V      &kp B                  &kp N      &kp M      &kp COMMA      &kp DOT    &kp FSLH   &kp RIGHT_SHIFT  &nav_UP    &mt DELETE INSERT
-&kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT     &to_lay_1                  &kp SPACE                         &kp SPACE  &kp RIGHT_ALT  &to_lay_2  &kp RCTRL  &nav_LEFT        &nav_DOWN  &nav_RIGHT
-&kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp ENTER  &to 0                  &mkp LCLK  &mkp MCLK  &mkp RCLK
+&kp LSHFT     &kp Z           &kp X            &kp C           &kp V      &kp B                  &kp N      &kp M      &kp COMMA      &kp DOT    &kp FSLH   &kp RIGHT_SHIFT  &mm_nav_U  &td_del_ins
+&kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT     &td_lay_1                  &kp SPACE                         &kp SPACE  &kp RIGHT_ALT  &td_lay_2  &kp RCTRL  &td_nav_L        &mm_nav_D  &td_nav_R
+&kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp ENTER  &to 1                  &mkp LCLK  &mkp MCLK  &mkp RCLK
             >;
 
             label = "layer0";
